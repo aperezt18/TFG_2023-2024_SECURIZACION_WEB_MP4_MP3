@@ -1,0 +1,73 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #0ff;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #0ff;
+    color: #000;
+    cursor: pointer;
+}
+
+a {
+    color: #0ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.8); /* Cambiado a un color de fondo semitransparente */
+    padding: 10px;
+    text-align: center;
+}
+
+#divlogo {
+    text-align: center;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+    filter: brightness(200%);
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 5px;
+}
+
+footer strong {
+    color: #0ff;
+}
+
+.div_index {
+    text-align: center;
+}
